@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 If you're using other than CUDA 10.2, you may need to install PyTorch for the proper version of CUDA. See [instructions](https://pytorch.org/get-started/locally/) for more details.
 
-## Training
+## Feature Processing and Model Training
 
 ```python
 python main.py 
