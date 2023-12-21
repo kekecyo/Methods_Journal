@@ -19,7 +19,7 @@ System overview             |  Key question
 18 features extracted from DTCWT used in this paper and their brief explanations.
 
 <p align="center">
-<img width="900" alt="image" src="https://github.com/kekecyo/Methods_Journal/assets/154519750/cafb4213-b45e-4f18-8c74-5304002df37f">
+<img width="800" alt="image" src="https://github.com/kekecyo/Methods_Journal/assets/154519750/cafb4213-b45e-4f18-8c74-5304002df37f">
 </p>
 
 
