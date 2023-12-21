@@ -27,6 +27,8 @@ System overview             |  Key question
 
 ## Setup
 
+The feature engineering is conducted on Matlab.
+Our proposed deep learning model is conducted on Pytorch env.
 You can install the required dependencies using pip.
 
 ```bash
@@ -37,35 +39,25 @@ If you're using other than CUDA 10.2, you may need to install PyTorch for the pr
 
 ## Feature Processing and Model Training
 
-```python
-python main.py 
---epochs=xx
-...
---dim=xx
---layers=xx
-...
---dic_name <path/to/model_checkpoint> 
-<model_checkpoint.pth>
-```
+_Preprocessing.m_: signal filtering and sample segmentation.
 
-You can set up different hyperparameters by --args.xx in _main.py_.
+_dualtree_wavelet folder_: dual-tree complex wavelet transform (DTCWT) for extraction of temporal-spatial feature.
 
-## Reference
+_EMG-Feature-Extraction-Toolbox_: different feature extraction methods conducted on DTCWT.
 
-[1] H. Chefer, S. Gur, and L. Wolf, “Generic attention-model explainability for interpreting bi-modal and encoder-decoder transformers,” CoRR, vol. abs/2103.15679, 2021. [Online]. Available: https://arxiv.org/abs/2103.15679
+_Model_EMG_Trans.ipynb_: our proposed channel-wise Transformer-based model
 
-[2] Hila Chefer, Shir Gur, Lior Wolf, “Transformer interpretability beyond attention visualization,” arXiv preprint arXiv:2012.09838, 2020.
 
 ## Citation
 If you find this code useful in your research, please consider citing:
 
-    @ARTICLE{TNSREchen23,
-  	author={Chen, Zheng and Yang, Ziwei and Zhu, Lingwei and Chen, Wei and Tamura, Toshiyo and Ono, Naoaki and Altaf-Ul-Amin, Md and Kanaya, Shigehiko and Huang, Ming},
-  	journal={IEEE Transactions on Neural Systems and Rehabilitation Engineering}, 
-  	title={Automated Sleep Staging via Parallel Frequency-Cut Attention}, 
+    @ARTICLE{MethodsKakaya23,
+  	author={Jiaxuan, Zhang and Yuki, Matsuda and Manato, Fujimoto and Hirohiko, Suwa and Keiichi, Yasumoto},
+  	journal={Methods, Elsevier}, 
+  	title={Movement recognition via channel-activation-wise sEMG attention}, 
   	year={2023},
-  	volume={31},
-  	pages={1974-1985}}
+  	volume={218},
+  	pages={39-47}}
 
 
 
