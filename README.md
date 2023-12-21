@@ -1,11 +1,12 @@
 # Methods_Journal
 
-# IEEE TNSRE_23
-[Automated Sleep Staging via Parallel Frequency-Cut Attention](https://ieeexplore.ieee.org/abstract/document/10041186)
+[Movement recognition via channel-activation-wise sEMG attention](https://www.sciencedirect.com/science/article/pii/S1046202323001093)
 
-Zheng Chen, Ziwei Yang, Lingwei Zhu, Wei Chen, Toshiyo Tamura, Naoaki Ono, MD Altaf-Ul-Amin, Shigehiko Kanaya and Ming Huang
+Jiaxuan Zhang, Yuki Matsuda, Manato Fujimoto, Hirohiko Suwa, Keiichi Yasumoto
 
-In this paper, we propose a novel framework that is based on authoritative guidance in sleep medicine and is designed to automatically capture the time-frequency characteristics of sleep electroencephalogram (EEG) signals in order to make staging decisions. Our framework consists of two main phases: a feature extraction process that partitions the input EEG spectrograms into a sequence of time-frequency patches, and a staging phase that searches for correlations between the extracted features and the defining characteristics of sleep stages. To model the staging phase, we utilize a Transformer model with an attention-based module, which allows for the extraction of global contextual relevance among time-frequency patches and the use of this relevance for staging decisions. 
+Current feature extraction methods for sEMG signals have been seriously limited by their stochasticity, transiency, and non-stationarity.
+Our objective is to combat the difficulties induced by the aforementioned downsides of sEMG and thereby extract representative features for various downstream movement recognition.
+We hence propose a novel 3-axis view of sEMG features composed of temporal, spatial, and channel-wise summary. We leverage the state-of-the-art architecture Transformer to enforce efficient parallel search and to get rid of limitations imposed by previous work in gesture classification. The transformer model is designed on top of an attention-based module, which allows for the extraction of global contextual relevance among channels and the use of this relevance for sEMG recognition. 
 
 ---------------------------------------------------------------------------------------------------------------------
 
