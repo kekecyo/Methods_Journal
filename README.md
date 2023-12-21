@@ -11,15 +11,15 @@ We hence propose a novel 3-axis view of sEMG features composed of temporal, spat
 ---------------------------------------------------------------------------------------------------------------------
 
 
-System overview             |  Time-frequency patching
+System overview             |  Key question
 :-------------------------:|:-------------------------:
 ![alt text](https://github.com/kekecyo/Methods_Journal/assets/154519750/9987e529-d54d-4cbd-9c03-6defb924b75f)  | <img width="1500" alt="image" src="https://github.com/kekecyo/Methods_Journal/assets/154519750/9d3be752-d8fd-4a1d-bd06-d65afd589863">
 
 
-Fequencey-band-time-index visualization resutls [1],[2].
+18 features extracted from DTCWT used in this paper and their brief explanations.
 
 <p align="center">
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/34312998/133877630-9b2f2eec-11e0-4d41-8c36-5afd02dd78d6.png">
+<img width="900" alt="image" src="https://github.com/kekecyo/Methods_Journal/assets/154519750/cafb4213-b45e-4f18-8c74-5304002df37f">
 </p>
 
 
