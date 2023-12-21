@@ -13,8 +13,7 @@ We hence propose a novel 3-axis view of sEMG features composed of temporal, spat
 
 System overview             |  Time-frequency patching
 :-------------------------:|:-------------------------:
-![alt text](https://github.com/kekecyo/Methods_Journal/assets/154519750/9987e529-d54d-4cbd-9c03-6defb924b75f)  | <img width="1200" alt="image" src="https://github.com/chenzRG/TNSRE_23/assets/125750017/8b2ab0c7-f696-4b06-a30f-e04774f11153">
-
+![alt text](https://github.com/kekecyo/Methods_Journal/assets/154519750/9987e529-d54d-4cbd-9c03-6defb924b75f)  | <img width="1200" alt="image" src="https://github.com/kekecyo/Methods_Journal/assets/154519750/9d3be752-d8fd-4a1d-bd06-d65afd589863">
 
 
 Fequencey-band-time-index visualization resutls [1],[2].
